@@ -1,0 +1,231 @@
+/* .container-fluid{margin-top:150px;} */
+/* #cs-overrride-jumbotron{background-color:#0c68fc;} */
+/* #cs-overrride-jumbotron h1, #cs-overrride-jumbotron div{color:#fff;} */
+.vcenter {
+    display: inline-block;
+    float: none;
+}
+.cs-panel {
+	margin:auto;
+	
+	height:420px;
+	width:80%;
+	color:#000;
+	
+	
+	/* transform:translateY(0%); */
+}
+.cs-panel main {
+	
+
+   transform:translateY(50%);
+	/* transform:translateY(30%); */
+/* 	margin:0 !important; */
+}
+.masthead{
+	/* padding:0 !important;
+	margin:0 !important; */
+	background-color:#314772;
+}
+.cs-extra-margin{margin-top:40px;}
+#cs-img-override{border-radius:10px 10px ; height:200px;}
+/* // Small devices (landscape phones, 576px and up) */
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+.footer{
+	
+	background:#0a3170 !important;
+	height:auto;
+		background-color:#006199 !important;
+	/* background-color:#3c3f42 !important; */
+	background-image: linear-gradient(top, #2a64c1, #006199);
+	  background-image: -webkit-linear-gradient(top, #2a64c1, #006199);
+	/* height:300px; */
+}
+.cs-extra-padding{
+/* 	padding:60px auto;  */
+	padding:0;
+	/* transform:translateY(50%); */
+	font-size:25pt;
+
+}
+.cs-extra-top-space{
+	padding-top:50px;
+
+}
+.cs-extra-top-space-sm{
+	padding-top:20px;
+}
+#cs-footer{
+	height:50px;
+	
+}
+#cs-footer table{
+	width:80%;	
+	color:#fff;
+	margin-bottom:0;
+	
+}
+.cs-text-color{
+	color:#fff;	
+	/* background:#3c3f42 !important; */
+}
+#cs-footer .container span{
+	
+	/* margin-top:15em;
+	height:100px;	
+	font-size:12pt;
+	vertical-align:middle;
+	transform:translateY(50%); */
+}
+#cs-form-margin{
+	margin: 30px auto;
+}
+#cs-navbar *{
+/* background-color:#3c3f42; */
+/* border:1px solid blue;
+width:80%;
+margin:auto auto; */
+/* color:#fff; */
+}
+.bg-dark{
+	
+	/* background-color:#3c3f42 !important; */
+	background-image: linear-gradient(top, #2a64c1, #006199);
+	  background-image: -webkit-linear-gradient(top, #2a64c1, #006199);
+}
+#navbarCollapse *{
+/* background-color:#314772; 
+color:#fff; */	
+}
+
+
+
+
+#step{
+  margin:0;
+
+}
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+.cs-line{
+	height:.5pt;
+	width:60%;
+	background:#10110e;
+	opacity:.2;
+	/* border: .25pt solid red; */
+}
+.cs-border{
+	width:100px;
+	margin-left:10px;
+	line-height:0;	
+	border-top:1pt solid #10110e;
+	background:transparent;
+	
+}
+.cs-border:after{
+	
+	
+}
+.btn-elegant{
+	
+  width:60px;
+  height:60px;
+  margin:0px 0px;
+  box-shadow:1px 1px 5px  #888;
+  font-size:12pt;
+  transition: all .1s ease-in .01s;
+
+}
+
+.btn-elegant.active,.btn-elegant:hover{
+
+  color:#fff !important;
+  text-shadow:1p 1px 10px #888;
+ background: #005596;
+  background-image: -webkit-linear-gradient(top, #005596, #006199);
+  background-image: -moz-linear-gradient(top, #005596, #006199);
+  background-image: -ms-linear-gradient(top, #005596, #006199);
+  background-image: -o-linear-gradient(top, #005596, #006199);
+  background-image: linear-gradient(to bottom, #005596, #006199);
+}
+.cs-txt-darkblue{
+	 color: #01507a;
+	 font-size:12pt;
+	 font-weight:bold;
+}
+.btn-rounded{
+	  border-radius:50%; 50%;
+}
+
+@media (max-width: 576px) {
+	
+	#cs-img-override{width:180px ; height:100px;}
+	#cs-footer *{
+	/* 		margin-top:20px; */
+			line-height:50px;
+			font-size:10pt;
+	}
+	#cs-footer table{
+		width:100%;	
+		color:#fff;
+		margin-bottom:0;
+		
+	}
+	.cs-txt-darkblue{font-size:10pt;}
+	.cs-border{display:none;}
+	.btn-elegant{
+	
+		  width:40px;
+		  height:40px;
+		  margin:0px 5px;
+		  font-size:8pt;
+	}
+}
+@media (max-width: 768px) {
+	.cs-txt-darkblue{font-size:10pt;}
+	.cs-border{display:none;}
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	
+}
